@@ -1,0 +1,18 @@
+.btn-custom {
+    background-color: #e0e0e0;
+    border-color: #686868;
+}
+
+
+.bg-card-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(245 245 245) !important;
+}
+
+.card-hover {
+    transition: transform .5s;
+}
+
+.card-hover:hover img {
+    transform: scale(1.5);
+}
