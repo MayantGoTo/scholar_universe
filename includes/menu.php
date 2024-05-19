@@ -1,5 +1,5 @@
 <?php $sesion = isset($_SESSION['auth']) ? $_SESSION['auth'] : false; ?>
-<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #000080;" aria-label="Third navbar example">
+<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2d717d;" aria-label="Third navbar example">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?= RUTA_DASHBOARD ?>inicio.php">SU</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
