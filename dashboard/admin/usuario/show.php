@@ -59,7 +59,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
 </div>
 
 <div class="row d-flex justify-content-center">
-    <div class="card text-dark mb-3 shadow w-50 p-3 bg-body rounded">
+    <div class="card text-white mb-3 shadow w-50 p-3 bg-body rounded">
         <div class="card-body">
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre(s)*</label>

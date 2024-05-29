@@ -1,8 +1,8 @@
 body{
     background-color: #DFDBE5;
-    background-image: url('../img/smart-city.jpg'); 
+    /*background-image: url('../img/smart-city.jpg'); 
     background-size: cover; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;*/
 }
 
 .btn-custom {
