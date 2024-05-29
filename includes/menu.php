@@ -1,7 +1,7 @@
 <?php $sesion = isset($_SESSION['auth']) ? $_SESSION['auth'] : false; ?>
-<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #2d717d;" aria-label="Third navbar example">
+<nav class="navbar navbar-expand-sm navbar-dark " style="background-color: #2d717d;" aria-label="Third navbar example">
     <div class="container-fluid">
-        <a class="navbar-brand" href="<?= RUTA_DASHBOARD ?>inicio.php">SU</a>
+       
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
             aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -45,20 +45,21 @@
                     <?php endif; ?>
 
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="<?= RUTA_DASHBOARD ?>perfil.php">Perfil</a>
+                        <a class="nav-link ml-5" aria-current="page" href="<?= RUTA_DASHBOARD ?>perfil.php">Perfil</a>
                     </li>
 
                 <?php endif; ?>
 
                 <!-- menu para usuario no logeado -->
                 <?php if (!$sesion): ?>
+                    <ul class="nav justify-content-center">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="<?= RUTA_FRONT ?>inicio.php">Inicio</a>
                     </li>
                 <?php endif; ?>
             </ul>
             <?php if (!$sesion): ?>
-                <ul class="navbar-nav mb-2 mb-lg-0">
+                <ul class="navbar-nav mb-2 mb-lg-0"> 
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="<?= RUTA_FRONT ?>acceder.php">Acceder</a>
                     </li>

@@ -15,7 +15,6 @@ session_start();
   <link rel="stylesheet" href="<?= RUTA_FRONT ?>css/sweetalert2.min.css">
   <link rel="stylesheet" href="<?= RUTA_FRONT ?>css/bootstrap-select.min.css">
   <link rel="stylesheet" href="<?= RUTA_FRONT ?>css/style.css">
-
   <script src="<?= RUTA_FRONT ?>js/jquery-3.7.1.min.js"></script>
   <!-- <script src="js/bootstrap.min.js"></script> -->
   <script src="<?= RUTA_FRONT ?>js/bootstrap.bundle.min.js"></script>

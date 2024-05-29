@@ -1,15 +1,10 @@
 drop database if exists scholar_universe;
 create database scholar_universe;
 
-/*Una página donde los estudiantes puedan compartir y acceder a apuntes, resúmenes y recursos de estudio para 
- sus clases. Podrían crear perfiles, seguir materias específicas y colaborar.
- Siguiendo esto pues quiero que sea para subir archivos, etc.
- */
+
 use scholar_universe;
 
-/*adicional categorias por ejemplo sistemas que englobe informatica y tics,etc,
- roles apuntes - archivos recursos de estudio - archivos mis materias colaborar en la creación de contenido educativo,
-*/
+
 create table usuarios (
     id int not null primary key auto_increment,
     nombre varchar(255) not null,
@@ -120,20 +115,3 @@ INSERT INTO scholar_universe.usuarios
 (nombre, apellido_paterno, apellido_materno, email, password, rol, fecha_creacion)
 VALUES('Mayant', 'Gorgonio', 'Tolentino', 'mayant.tolentino@gmail.com', '21232f297a57a5a743894a0e4a801fc3', 'Root', '2024-05-15 00:22:25');
 
-/*insert into universidades values(null, 'ITSAL', 'Salina Cruz Oaxaca', 'Mexico');
- insert into universidades values(null, 'Universidad Viscaya', 'Salina Cruz Oaxaca', 'Mexico');
- 
- insert into estudiantes values(null, 'Mayant', 'Gorgonio Tolentino', 'mayant.tolentino@gmail.com', 1);
- insert into estudiantes values(null, 'Mariana', 'Angeles Ordoñes', 'marianaangeleso@gmail.com', 2);
- 
- insert into materias values(null, 'Programacion Web', 'La programación web sirve para crear páginas y sitios en Internet. 
- Para poder hacerlo, se utilizan distintos lenguajes específicos que permiten desarrollar la creatividad humana. 
- Estos lenguajes se fundamentan en la posibilidad de enlazar a través de hipervínculos distintas páginas web, lo que 
- genera la interconexión que conocemos hoy como Internet.', 1);
- insert into materias values(null, 'Desarrollo de emprendedores', 'El desarrollo emprendedor es el proceso mediante el cual 
- los emprendedores adquieren habilidades, conocimientos y recursos necesarios para iniciar, gestionar y hacer crecer un negocio. 
- Implica identificar oportunidades, establecer objetivos, diseñar estrategias y tomar decisiones efectivas para alcanzar el éxito
- empresarial.', 2);
- 
- insert into estudiantes_materias values(null, 1, 1);
- insert into estudiantes_materias values(null, 2, 2);*/

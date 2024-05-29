@@ -13,8 +13,7 @@ $sesion = isset($_SESSION['auth']);
 <?php endif; ?>
 
 <div class="text-center">
-    <p class="h1">Scholar Universe</p>
-    <img src="<?= RUTA_FRONT ?>/img/Logo2.png" class="img-fluid" alt="...">
+    <img src="<?= RUTA_FRONT ?>/img/Logo2.png" class="img-fluid" alt="..." style="width: 300px; height: auto;">
 </div>
 <br />
 <?php include ("includes/footer.php") ?>
